@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
+@font-face { font-family: 'DINPro';  src: local('DINPro'), url('http://nomail.com.ua/files/woff/26790dcdb56da3868ccaae2649fe16ce.woff') format('woff'); }
+
+
+body {
+  font-family: 'Helvetica';
+}
+.wrapper {
+  margin-top: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.title {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Helvetica';
+  font-weight: 300;
+  /*color: $grey;*/
+}
+
+.p {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.workspace {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*div {
+  margin: 20px;
+}*/
+
+#name {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+}
+
+
+> * {
+  margin: 5px;
+}
+
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-top: 6px;
+}
+
+.copy {
+  /*color: $grey;*/
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+
+input {
+  border: 1px rgba(255,255,255,0.5);
+  height: 30px;
+  padding-left: 5px;
+  outline: none;
+  /*color: $grey;*/
+  background-color: rgba(255,255,255,0.5);
+
+
+}
+
+
+button {
+  margin: 19px 0px;
+  width: 150px;
+  height: 35px;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px rgba(255,255,255,0.5);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  outline: none;
+}
+
+
+button:hover {
+  color: gray;
+}
+
+
+.circle {
+  width: 190px;
+  height: 190px;
+  margin-bottom: 54px;
+  /*background-image: linear-gradient(45deg, #B6ABA9 0%, #887058 99%, #8A675D 100%);*/
+  background: #191818;
+
+
+  transition: all 0.5s ease;
+}
