@@ -40,28 +40,12 @@
 }*/
 
 .infa {
+  margin-top: 120px;
   width: 100vw;
   height: 100vh;
-  position: relative;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  /*align-items: flex-start;*/
-  justify-content: center;
-
-
 }
 
 
-
-p {
-  text-align: center;
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 18px;
-  line-height: 26px;
-
-}
 .lmp {
   display: flex;
   /*flex-direction: row;*/
@@ -85,48 +69,76 @@ p {
   justify-content: center;
 }
 
+.a:hover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.b:hover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.c:hover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.d:hover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.e:hover {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
 
 
 
+p {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 25px;
+  line-height: 26px;
+  -webkit-margin-after: 15px;
+}
 
-  .a:hover {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
+blockquote {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 395px;
+  position: relative;
 
-  .b:hover {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-  .c:hover {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-  .d:hover {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-  .e:hover {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
+}
+
+
+blockquote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+}
